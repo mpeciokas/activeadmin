@@ -1,4 +1,5 @@
 $(document).on 'ready page:load turbolinks:load', ->
+  $('.batch_actions_selector li a').off('click confirm:complete');
 
   #
   # Use ActiveAdmin.modal_dialog to prompt user if confirmation is required for current Batch Action
